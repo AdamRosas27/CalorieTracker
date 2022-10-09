@@ -9,4 +9,7 @@ class Calories:
         serving_size: int,
         number_of_servings: int,
     ) -> None:
-        pass
+        self.meal_name = meal_name
+        self.caloric_value = caloric_value
+        self.serving_size = serving_size
+        self.number_of_servings = number_of_servings
