@@ -1,6 +1,6 @@
 class Calories:
 
-    caloric_limit = input("Enter Your Daily Caloric Target: ")
+    caloric_limit = int(input("Enter Your Daily Caloric Target: "))
 
     def __init__(
         self,
