@@ -1,4 +1,4 @@
-class Calories:
+class Food:
 
     caloric_limit = int(input("Enter Your Daily Caloric Target: "))
     name = input("Name: ")
